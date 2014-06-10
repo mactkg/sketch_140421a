@@ -11,7 +11,7 @@ void draw() {
   colorMode(RGB, 255);
 
   strokeWeight(50);
-  stroke(0);
+  stroke(100);
   line(t/255.0*width, 0, t/255.0*width, height);
   line(t/255.0*width+240, 0, t/255.0*width+240, height);
 }
